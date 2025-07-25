@@ -1,4 +1,5 @@
 # 🧮 Visual Sorting Algorithms
+[![GitHub Pages](https://img.shields.io/badge/Live-Demo-green?style=flat&logo=github)](https://JakkaSanthosh.github.io/visual-sorting-algorithms)
 
 A visually engaging web-based tool that demonstrates how popular sorting algorithms work step-by-step using animations.
 
