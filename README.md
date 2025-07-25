@@ -9,8 +9,6 @@ A visually engaging web-based tool that demonstrates how popular sorting algorit
   - Bubble Sort
   - Selection Sort
   - Insertion Sort
-  - Merge Sort
-  - Quick Sort
 - Intuitive UI with animated bars for step-by-step visualization.
 - Adjustable array size and sorting speed (Coming soon!).
 
