@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visual Sorting Algorithms</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 Visual Sorting Algorithms</h1>
+    <div class="controls">
+      <label for="algorithm">Choose Algorithm:</label>
+      <select id="algorithm">
+        <option value="bubble">Bubble Sort</option>
+        <option value="selection">Selection Sort</option>
+        <option value="insertion">Insertion Sort</option>
+      </select>
+
+      <label for="size">Array Size:</label>
+      <input type="range" id="size" min="10" max="100" value="50" />
+
+      <button onclick="generateArray()">🔁 Generate Array</button>
+      <button onclick="startSort()">▶️ Start Sorting</button>
+    </div>
+
+    <div class="bar-container" id="bar-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
